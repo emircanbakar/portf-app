@@ -314,10 +314,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  margin-bottom: 40px;
 }
 .skill h2 {
 	font-size: 45px;
 	font-weight: 700;
+}
+.skill span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
 }
 .skill p {
     color: #B8B8B8;
@@ -327,13 +334,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin: 14px 0 75px 0;
 }
 .skill-slider {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   position: relative;
 }
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
+  margin-left: 3.75rem;
 }
 .background-image-left {
   top: 28%;
