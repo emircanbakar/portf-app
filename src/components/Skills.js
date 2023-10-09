@@ -32,21 +32,21 @@ export const Skills = () => {
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h2>Skills</h2>
+                            <h1>Skills</h1>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, quo reiciendis? Delectus, ea odit.</p>
                         </div>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter1}  alt=""/>
-                                <span>UI/UX Design</span>
+                                <h2>UI/UX Design</h2>
                             </div>
                             <div className="item">
                                 <img src={meter2}  alt=""/>
-                                <span>UI Development</span>
+                                <h2>UI Development</h2>
                             </div>
                             <div className="item">
                                 <img src={meter3}  alt=""/>
-                                <span>Web Development</span>
+                                <h2>Web Development</h2>
                             </div>
                         </Carousel>
                     </Col>
